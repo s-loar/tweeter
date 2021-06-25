@@ -5,11 +5,9 @@ This app is a simple tweet app with Hotwire
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
-
 * Ruby version
-. ruby 3.0.1
-. rails 6.1.4
+ruby 3.0.1
+rails 6.1.4
 
 * System dependencies
 
