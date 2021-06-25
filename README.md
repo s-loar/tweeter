@@ -6,10 +6,11 @@ This README would normally document whatever steps are necessary to get the
 application up and running.
 
 * Ruby version
-ruby 3.0.1
-rails 6.1.4
+  * ruby 3.0.1
+  * rails 6.1.4
 
 * System dependencies
+  * Hotwire
 
 * Configuration
 
