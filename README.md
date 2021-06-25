@@ -1,5 +1,7 @@
 # README
 
+This app is a simple tweet app with Hotwire
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
