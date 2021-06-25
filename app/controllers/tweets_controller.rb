@@ -29,7 +29,7 @@ class TweetsController < ApplicationController
         format.html { redirect_to tweets_url, notice: "Tweet was successfully created." }
         format.json { render :show, status: :created, location: @tweet }
       else
-        format.html { render :new, status: :unprocessable_entity }
+        format.html { render :new }
         format.json { render json: @tweet.errors, status: :unprocessable_entity }
       end
     end
@@ -42,7 +42,7 @@ class TweetsController < ApplicationController
         format.html { redirect_to @tweet, notice: "Tweet was successfully updated." }
         format.json { render :show, status: :ok, location: @tweet }
       else
-        format.html { render :edit, status: :unprocessable_entity }
+        format.html { render :edit }
         format.json { render json: @tweet.errors, status: :unprocessable_entity }
       end
     end
